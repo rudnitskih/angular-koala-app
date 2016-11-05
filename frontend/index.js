@@ -7,6 +7,6 @@ app.config(function($stateProvider){
         .state({
             name: 'hello',
             url: '/hello',
-            templateUrl: '/src/views/main.view.html'
+            templateUrl: './views/main.view.html'
           })
 });
