@@ -1,0 +1,19 @@
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<td>Name</td>
+			<td>Passengers</td>
+			<td>Class</td>
+		</tr>
+	</thead>
+
+	<tbody>
+		<!-- ng-repeat directive: https://docs.angularjs.org/api/ng/directive/ngRepeat-->
+		<tr ng-repeat="vehicle in vehicles">
+			<!-- {{ }} - an angular expression: https://docs.angularjs.org/guide/expression -->
+			<td>{{vehicle.name}}</td>
+			<td>{{vehicle.passengers}}</td>
+			<td>{{vehicle.vehicle_class}}</td>
+		</tr>
+	</tbody>
+</table>

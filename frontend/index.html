@@ -5,13 +5,13 @@
     <link rel="stylesheet" type="text/css" href="../node_modules/angular-ui-grid/ui-grid.css"/>
     <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.css"/>
 
-    
+    <script src="../node_modules/jquery/dist/jquery.js"></script>    
     <script src="../node_modules/angular/angular.js"></script>
     <script src="../node_modules/angular-animate/angular-animate.js"></script>
     <script src="../node_modules/angular-touch/angular-touch.js"></script>
     <script src="../node_modules/angular-ui-router/release/angular-ui-router.js"></script>
-    <script src="../node_modules/jquery/dist/jquery.js"></script>
     <script src="../node_modules/angular-ui-grid/ui-grid.js"></script>
+    <script type="text/javascript" src="//code.angularjs.org/1.2.16/angular-resource.js"></script>
     
 
     <script src="index.js"></script>
@@ -20,15 +20,11 @@
   <body>
     <div class="container">
       <h1>Hello Koala!</h1>
-      <a ui-sref="hello" ui-sref-active="active">Hello</a>
-      <a ui-sref="about" ui-sref-active="active">About</a>
+
+      <a ui-sref="home" ui-sref-active="active">Home</a>
     </div>
 
-    <div class="container">
-      <p data-height="513" data-theme-id="dark" data-slug-hash="eHGfj" data-default-tab="result" data-user="TimPietrusky" data-embed-version="2" data-pen-title="Star Wars opening crawl from 1977" class="codepen">See the Pen <a href="http://codepen.io/TimPietrusky/pen/eHGfj/">Star Wars opening crawl from 1977</a> by Tim Pietrusky (<a href="http://codepen.io/TimPietrusky">@TimPietrusky</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-    <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-    </div>
-
+    <!-- Place where ui-router will include template -->
     <ui-view></ui-view>
   </body>
 </html>
